@@ -1,0 +1,40 @@
+{
+  "name": "generator-sencha-cordova",
+  "version": "0.0.1",
+  "description": "Yeoman generator that scaffolds out a Sencha Touch mobile app with Cordova support",
+  "license": "Apache License 2.0",
+  "main": "app/index.js",
+  "repository": "lucianomlima/generator-sencha-cordova",
+  "author": {
+    "name": "Luciano Lima",
+    "url": "https://github.com/lucianomlima"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=1.2.14"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "mobile",
+    "app",
+    "sencha",
+    "touch",
+    "cordova",
+    "senchatouch"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.18.9",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {}
+}
